@@ -93,7 +93,7 @@ DATABASES = {
         'USER': 'django_aws_demo',
         'PASSWORD':'Namira912',
         'HOST':'django-aws-demo.cxrd69ujjfcd.ap-south-1.rds.amazonaws.com',
-        'PORT': '5432'
+        'PORT': '5432',
     }
 }
 
