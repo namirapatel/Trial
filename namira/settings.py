@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'namira.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'namira',
-        'USER': 'postgres',
-        'PASSWORD':'Namira@912',
-        'HOST':'localhost',
+        'NAME': 'postgres',
+        'USER': 'django_aws_demo',
+        'PASSWORD':'Namira912',
+        'HOST':'django-aws-demo.cxrd69ujjfcd.ap-south-1.rds.amazonaws.com',
         'PORT': '5432'
     }
 }
@@ -165,4 +165,4 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
        # 'rest_framework.permissions.IsAuthenticated',
     )
-}
+    }
