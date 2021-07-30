@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-mbl8s)l47tt+el+$#l8!+(+8#*hb^-t4+-dj6*5k*sgl-khpcn
 
 ALLOWED_HOSTS = ['*']
 
-DEBUG = True
+DEBUG = False
 
 #ALLOWED_HOSTS = []
 
@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'namira.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'test_project_db',
         'USER': 'django_aws_demo',
         'PASSWORD':'Namira912',
         'HOST':'django-aws-demo.cxrd69ujjfcd.ap-south-1.rds.amazonaws.com',
